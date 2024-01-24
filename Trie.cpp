@@ -10,7 +10,7 @@ struct Node
     {
         return links[ch - 'a'];
     }
-
+    
     Node *createNode()
     {
         return new Node();
